@@ -1,0 +1,87 @@
+<div class="main">
+  <section class="modernaxit">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <img
+            src="../../../../assets/images/logo_front.png"
+            alt="logo"
+            class="logo_front"
+          />
+          <h2 class="primary_heading">
+            MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES
+          </h2>
+          <p class="para">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet. Proin gravida dolor sit amet lacus
+            accumsan et viverra justo commodo.
+          </p>
+          <button class="btn download">Download</button>
+        </div>
+        <div class="col-md-4 offset-md-2">
+          <div class="card">
+            <div class="card-header">
+              <h3>
+                Try Your <span style="color: #ff9b51">FREE</span> Trial Today
+              </h3>
+            </div>
+            <div class="card-body">
+              <div class="form">
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name=""
+                    id="name"
+                    class="form-control"
+                    placeholder="Name"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name=""
+                    id="email"
+                    class="form-control"
+                    placeholder="Email"
+                  />
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    name=""
+                    id="password"
+                    placeholder="Password"
+                    class="form-control"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn-block started">Get Started</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="social_icon">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4>Social Media</h4>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean
+            euismod bibendum laoreet.
+          </p>
+        </div>
+        <div class="col-md-8">
+          <a
+            *ngFor="let icon of social_icon"
+            [href]="icon.link"
+            [innerHTML]="icon.icon_html"
+          ></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <app-about></app-about>
+</div>

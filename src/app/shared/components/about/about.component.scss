@@ -1,0 +1,82 @@
+.tabs_effect {
+  padding: 145px 0 115px;
+  background-color: #f5f5f5;
+}
+
+.download:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  color: #fff;
+  background-color: #ff9b51;
+}
+
+.download:not(:disabled):not(.disabled):hover {
+  background-color: #fff;
+  border: 2px solid #ff9b51;
+  color: #ff9b51;
+}
+
+::ng-deep {
+  .mat-tab-label.ng-star-inserted {
+    padding: 55px 55px;
+    opacity: 1;
+  }
+
+  .mat-tab-body .ng-star-inserted {
+    margin-left: 110px;
+  }
+
+  .mat-tab-labels {
+    display: flex;
+    flex-direction: column;
+  }
+  .mat-tab-label:focus,
+  .mat-tab-label:active {
+    /* outline: none; */
+    background-color: orange;
+  }
+  .mat-tab-label {
+    height: 110px;
+    padding: 0 24px;
+    cursor: pointer;
+    box-sizing: border-box;
+    opacity: 1;
+    min-width: 160px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    position: relative;
+    background-color: #232121;
+    color: #fff;
+    margin-bottom: 5px;
+  }
+}
+.mat-tab-group {
+  flex-direction: row;
+}
+.building {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sub_list {
+  padding: 110px 0 135px;
+
+  img {
+    box-shadow: 0px 20px 30px rgb(0, 0, 0, 0.5);
+  }
+}
+
+.sub_list2 {
+  padding: 110px 0 135px;
+  background-color: #f5f5f5;
+  img {
+    box-shadow: 0px 20px 30px rgb(0, 0, 0, 0.5);
+  }
+}
+
+.sub_list3 {
+  padding: 110px 0;
+}

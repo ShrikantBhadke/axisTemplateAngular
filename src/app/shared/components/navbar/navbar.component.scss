@@ -1,0 +1,21 @@
+ul li a.nav-link {
+  color: #dcdada;
+  position: relative;
+}
+ul li a::before {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  background-color: orangered;
+  transition: all 0.5s ease-in-out;
+}
+
+ul li a:hover::before {
+  width: 100%;
+}
+ul li {
+  margin-left: 40px;
+}

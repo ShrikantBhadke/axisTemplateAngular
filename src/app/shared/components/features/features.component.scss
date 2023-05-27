@@ -1,0 +1,88 @@
+.modernaxit {
+  background-image: linear-gradient(rgb(0, 0, 0, 0.7), rgb(0, 0, 0, 0.7)),
+    url("../../../../assets/images/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 110px 0 140px;
+
+  .logo_front {
+    margin-bottom: 30px;
+  }
+}
+.primary_heading {
+  font-size: 36px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: capitalize;
+  margin-bottom: 40px;
+}
+
+.para {
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+  margin-bottom: 40px;
+  position: relative;
+  padding-top: 40px;
+}
+.para::after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 3px;
+  background-color: #fff;
+  width: 20%;
+}
+
+.download:not(:disabled):not(.disabled) {
+  cursor: pointer;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.download:not(:disabled):not(.disabled):hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.card-header h3 {
+  font-size: 20px;
+  color: #333333;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.started {
+  background-color: #ff9b51;
+  color: #fff;
+}
+
+.social_icon {
+  padding: 10px 0;
+  border-bottom: #333333;
+
+  h4 {
+    font-size: 20px;
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  p {
+    font-size: 14px;
+    color: #86878b;
+    font-weight: lighter;
+    margin-bottom: 0;
+  }
+  a {
+    color: #cccccc;
+    font-size: 48px;
+  }
+  .col-md-8 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
